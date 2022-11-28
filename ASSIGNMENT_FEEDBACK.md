@@ -1,3 +1,15 @@
+UPDATED 28-11-2022
+
+Great job fixing up the assignemnt Omid!
+
+The only thing left that I would like you to do is to change the dirretory and file names - Files and directories should be written in lowercase
+
+But that will be for your own knowledge, as you can see below you've fixed everything so I am happy to say you have achieved a Välgodkänt grade! Well done!
+
+So please fix those file & folder names if you like, but you don't need to resubmit. Congratulations!
+
+*************************************
+
 Hi Omid! Nice work!
 
 I found a few issues, the main ones are:
@@ -21,11 +33,9 @@ GODKÄNT:
 
 3 separate pages: ✅
 
-A header with a page title on every page: ✅ ❌
-Google's SEO algorithim expects one and only one unique h1 on each page. You have 2 h1s on each page - I suggest changing "My website" to an h2 or similar
+A header with a page title on every page: ✅ 
 
-A navigational menu every page with links to the other pages: ❌
-The links are broken
+A navigational menu every page with links to the other pages: ✅
 
 Contact form:
     Email: ✅
@@ -36,8 +46,8 @@ Contact form:
 
 RWD:
     Desktop: ✅
-    Mobile: ❌
-    Don't use float - it removes an element from the normal page flow and can break a page - look at the home page on mobile. There is a spelling mistake in the media query, so Main goes to 100% and is not floated, but the sidebar styling doesn't change so it still floats. 
+    Mobile: ✅
+    Don't use float - it removes an element from the normal page flow and can break a page. 
     
      Use flex or grid instead, and for this flex should work well.
 
@@ -51,28 +61,23 @@ VÄLGODKÄNT:
 Current page indication in the menu: ✅
   Should be done with a class
 
-Responsive Image: ❌
-  Path to the image is broken, I can't see it
+Responsive Image: ✅
 
 RWD:
   Media Query: ✅
-  Flex/Grid: ❌
+  Flex/Grid: ✅
 
-Separate CSS: ✅ ❌
-  There is a lot of duplication of common styles such as the header. A better approach is to crate a gerneral styling file andd move all the common styling (header, nav etc) to this file.
-  The #1 rule in coding is to write everytthing just once!
+Separate CSS: ✅ 
+  Nice clean up!
   Semantic: ✅
 
-Semantic Element naming: ✅ ❌
-  Don't use ids unless there is a specific reason i.e. JavaScript will target that element. Classes are reuseable.
+Semantic Element naming: ✅
 
 Code Style:
   HTML: ✅
-    Files and directoris should be written in lowercase
+    Files and directories should be written in lowercase
   CSS: ✅
-  Avoid inline styling: 
-    <li style="background-color: rgb(109, 109, 109);"
-  This should be done with a specific class
+  
   This doesn't have a selector, so is broken:
   {
     margin: 0;
